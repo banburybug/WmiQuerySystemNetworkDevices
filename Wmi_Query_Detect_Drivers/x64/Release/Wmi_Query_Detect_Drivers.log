@@ -1,0 +1,26 @@
+﻿Build started 23/02/2015 16:37:12.
+     1>Project "C:\Users\matthew.smith\Dropbox\Programming\Small_Apps\C++\Wmi_Query_Detect_Drivers\Wmi_Query_Detect_Drivers\Wmi_Query_Detect_Drivers.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\Wmi_Query_Detect_Drivers.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt SystemDevices.cpp WMIQuerySys.cpp main.cpp
+         SystemDevices.cpp
+         WMIQuerySys.cpp
+         main.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\matthew.smith\Dropbox\Programming\Small_Apps\C++\Wmi_Query_Detect_Drivers\x64\Release\Wmi_Query_Detect_Drivers.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\Wmi_Query_Detect_Drivers.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\matthew.smith\Dropbox\Programming\Small_Apps\C++\Wmi_Query_Detect_Drivers\x64\Release\Wmi_Query_Detect_Drivers.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\matthew.smith\Dropbox\Programming\Small_Apps\C++\Wmi_Query_Detect_Drivers\x64\Release\Wmi_Query_Detect_Drivers.lib" /MACHINE:X64 x64\Release\SystemDevices.obj
+         x64\Release\main.obj
+         x64\Release\WMIQuerySys.obj
+         Generating code
+         Finished generating code
+         Wmi_Query_Detect_Drivers.vcxproj -> C:\Users\matthew.smith\Dropbox\Programming\Small_Apps\C++\Wmi_Query_Detect_Drivers\x64\Release\Wmi_Query_Detect_Drivers.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\matthew.smith\Dropbox\Programming\Small_Apps\C++\Wmi_Query_Detect_Drivers\x64\Release\Wmi_Query_Detect_Drivers.exe;#1" /manifest x64\Release\Wmi_Query_Detect_Drivers.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\Wmi_Query_Detect_Drivers.unsuccessfulbuild".
+         Touching "x64\Release\Wmi_Query_Detect_Drivers.lastbuildstate".
+     1>Done Building Project "C:\Users\matthew.smith\Dropbox\Programming\Small_Apps\C++\Wmi_Query_Detect_Drivers\Wmi_Query_Detect_Drivers\Wmi_Query_Detect_Drivers.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.65
