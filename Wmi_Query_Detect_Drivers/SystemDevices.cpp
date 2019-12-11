@@ -1,5 +1,6 @@
 
 #include "SystemDevices.h"
+#include <string>
 
 
 
@@ -59,6 +60,19 @@ DEVICE SystemDevices::getNetworkAdapterFromNetworkAdapter()
 
 
 
+}
+
+std::vector<std::string> SystemDevices::getAllPnPDeviceNames()
+{
+	DEVICE installedDevice;
+
+	//Build the query
+	std::string PnpModelQuery = "SELECT * FROM Win32_PnPEntity";
+
+	//Run the query
+	std::vector<std::string> deviceNames = _querySystem.getDeviceNames(PnpModelQuery);
+
+	return deviceNames;
 }
 
 

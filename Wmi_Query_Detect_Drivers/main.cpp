@@ -15,6 +15,13 @@ int main()
 	//Get adapter;
 	networkDevice = systemInfo.getNetworkAdapterFromPnPDevices();
 
+	auto pnpDevices = systemInfo.getAllPnPDeviceNames();
+	
+	for (auto& i : pnpDevices)
+	{
+		printf("%s \n", i);
+	}
+
 	//Make sure we have a valid adapter
 	if(networkDevice.AdapterType == NETWORK_ADAPTER_TYPE_GPRS)
 	{

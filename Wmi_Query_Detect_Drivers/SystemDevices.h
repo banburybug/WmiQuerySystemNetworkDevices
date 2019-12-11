@@ -6,6 +6,8 @@
 #include "Device.h"
 #include "WMIQuerySys.h"
 #include "vector"
+#include <vector>
+#include <vector>
 
 class SystemDevices
 {
@@ -19,6 +21,7 @@ public:
 	~SystemDevices();
 
 	DEVICE getNetworkAdapterFromPnPDevices();
+	std::vector<std::string> getAllPnPDeviceNames();
 	DEVICE getNetworkAdapterFromNetworkAdapter();
 	void initialiseKnownAdapters();
 
